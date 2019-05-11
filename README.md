@@ -14,6 +14,7 @@ useage(vue 2.6+ v-slot):
     </template>
 </LightBox>
 ```
+[Demo!](https://zengde.github.io/vue-gallery-lightbox/video.html)
 
 # vue-image-lightbox
 A simple image&video lightbox component for Vuejs  
