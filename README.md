@@ -1,5 +1,19 @@
 # notes
-based on [vue-image-lightbox](https://github.com/pexea12/vue-image-lightbox) ,remove hammer,add video player(current xgplayer)
+based on [vue-image-lightbox](https://github.com/pexea12/vue-image-lightbox) ,add video player(current xgplayer)
+useage(vue 2.6+ v-slot):
+```
+<LightBox 
+    v-if="showBox"
+    :images="modalGallerys" 
+    ref="lightbox"
+    :show-caption="false"
+    :show-thumbs="false"
+    :start-at="currentIndex">
+    <template #imgcon="{data,index}">
+        <Xgplayer :key="index" :config="play(data,index)" @player="Player = $event"/>
+    </template>
+</LightBox>
+```
 
 # vue-image-lightbox
 A simple image&video lightbox component for Vuejs  
