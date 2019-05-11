@@ -32,7 +32,10 @@
   "homepage": "https://github.com/pexea12/vue-image-lightbox",
   "dependencies": {
     "hammerjs": "^2.0.8",
-    "vue-lazyload": "^1.2.6"
+    "vue-lazyload": "^1.2.6",
+    "xgplayer-flv.js": "^1.1.5",
+    "xgplayer-mp4": "^1.1.5",
+    "xgplayer-vue": "^1.1.4-beta"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
