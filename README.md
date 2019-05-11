@@ -1,5 +1,8 @@
+# notes
+based on [vue-image-lightbox](https://github.com/pexea12/vue-image-lightbox) ,remove hammer,add video player(current xgplayer)
+
 # vue-image-lightbox
-A simple image lightbox component for Vuejs  
+A simple image&video lightbox component for Vuejs  
 [NPM Package](https://www.npmjs.com/package/vue-image-lightbox)  
 
 I use CSS style from [react-images](https://github.com/jossmac/react-images)
