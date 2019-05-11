@@ -31,12 +31,14 @@
           mode="out-in" 
           name="fade"
         >
+          <slot name="imgcon" :data="images[select]" :index="select">
           <img 
             :key="images[select].src"
             :src="images[select].src"
             :srcset="images[select].srcset || ''"
             class="vue-lb-modal-image"
           >
+          </slot>
         </transition>
 
         <div 
